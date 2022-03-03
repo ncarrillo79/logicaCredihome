@@ -1,0 +1,22 @@
+lado=60
+contador2 = 1;
+traço2 = "+";
+while (contador2 <= lado) {
+  contador2 = contador2 + 1;
+  traço2 += "+";
+}
+console.log(traço2);
+
+
+let contador = 1;
+
+let traço = "+";
+
+for (var i = 0; i <= 10; i++) {
+  console.log("+                                                           +");
+}
+while (contador <= lado) {
+  traço += "+";
+  contador = contador + 1;
+}
+console.log(traço);
